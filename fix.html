@@ -63,6 +63,10 @@
                 P. IVA IT00451260236</h6>
         </div>
     </footer>
-	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js">
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems, options);
+	</script>
 </body>
 </html>
