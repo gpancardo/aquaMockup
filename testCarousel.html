@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Pedrollo México</title>
+    
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        
+    </head>
+<body>
+    <section class="row">
+        <div class="col s12">
+            <div class="carousel">
+                <a href="" class="carousel-item">
+                    <img src="https://i.pinimg.com/originals/d5/3f/1a/d53f1a95dc709a9deb4e0725d5161ab5.jpg" alt="Primera ilustración">
+                </a>
+                <a href="" class="carousel-item">
+                    <img src="https://3.bp.blogspot.com/-eh3M64kV0CQ/U9pgzcOxUsI/AAAAAAAADi8/ju38HEwSirc/s1600/wallpaper-gato-estirado.jpg" alt="Segunda ilustración">
+                </a>
+                <a href="" class="carousel-item">
+                    <img src="https://4.bp.blogspot.com/-gTYFXgq1yZQ/T4Pv71VU45I/AAAAAAAAM04/zv9j-oX8XBw/s1600/cat%252Cgatitos+tiernos%252Czoomgraf.blogspot+%252810%2529.jpg" alt="Tercer ilustración">
+                </a>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.carousel');
+            var options = {
+                fullWidth: true
+            };
+            var instances = M.Carousel.init(elems, options);
+        });
+    </script>
+</body>
+</html>
